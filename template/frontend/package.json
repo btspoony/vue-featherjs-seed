@@ -1,0 +1,19 @@
+{
+  "name": "{{ name }}_frontend",
+  "version": "0.1.0",
+  "description": "{{ description }} frontend project",
+  "private": true,
+  "scripts": {
+    "test": "karma start test/unit/karma.conf.js --single-run"
+  },
+  "dependencies": {
+    "lodash": "^4.17.3",
+    "vue": "^2.1.0"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">= 5.0.0",
+    "npm": ">= 3.0.0"
+  }
+}

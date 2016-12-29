@@ -1,0 +1,39 @@
+{
+  "name": "{{ name }}_backend",
+  "version": "0.1.0",
+  "description": "{{ description }} backend project",
+  "private": true,
+  "main": "src/",
+  "scripts": {
+    "start": "node src/",
+    "test": "mocha 'test/**/*.spec.js' -c --recursive --reporter list"
+  },
+  "keywords": [
+    "feathers"
+  ],
+  "contributors": [],
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "cors": "^2.8.1",
+    "feathers": "^2.0.3",
+    "feathers-authentication": "^0.7.12",
+    "feathers-configuration": "^0.3.3",
+    "feathers-errors": "^2.5.0",
+    "feathers-hooks": "^1.7.1",
+    "feathers-rest": "^1.5.2",
+    "feathers-sequelize": "^1.4.0",
+    "feathers-socketio": "^1.4.2",
+    "passport": "^0.3.2",
+    "pg": "^6.1.2",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.28.0",
+    "serve-favicon": "^2.3.2",
+    "winston": "^2.3.0"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">= 5.0.0"
+  }
+}
